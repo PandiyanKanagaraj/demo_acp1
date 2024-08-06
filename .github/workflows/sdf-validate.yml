@@ -4,7 +4,7 @@ on: [push]
 jobs:
   sdf-validate:
     runs-on: ubuntu-latest
-    environment: production
+    environment: CG Squared SDF
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
